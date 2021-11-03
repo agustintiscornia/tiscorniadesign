@@ -1,0 +1,410 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap');
+
+.cajacontenedoraheader{
+    background-color: #031D44;
+    height: 90px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cajacontenedoraheaderhijo{
+    height: 180px;
+    display: block;  
+    margin-left: 10px;  
+}
+
+
+.menuprincipal a{
+text-decoration: none;
+color:white;
+font-size: 20px;
+text-transform: capitalize;
+margin-right: 15px;
+}
+.menuprincipal a:hover{
+    text-decoration: underline;
+}
+
+.carousel-caption{
+    color:white;
+    font-family: 'Oswald', sans-serif;
+    display: inline;
+    font-size: 30px;
+    word-spacing: 0.5em;
+    text-align: left;
+    top: 20px;
+    text-shadow: black 2px 2px;
+}
+
+
+.slide img{
+height: 630px;
+}
+
+.index-h1{
+font-size: 60px;
+}
+
+.servicios {
+    padding: 15px;
+    text-decoration: underline;
+}
+.fondoservicios {
+    background-color:cornflowerblue;
+    color: white;
+    height: 100%;
+}
+
+.cajacontenedoraservicios{
+    background-color: cornflowerblue;
+    height: 400px; 
+    display: flex;
+    flex-direction: row;
+}
+
+.cajacontenedoraservicioshijo{
+    padding: 15px;
+    color: ghostwhite;
+    font-family: 'Oswald', sans-serif;
+    display: inline;
+    font-size: 20px;
+    word-spacing: 0.5em;
+    margin-left: 5px;
+}
+
+.cajacontenedoraservicioshijo2{
+    height: 320px;
+    margin-right:15px;
+}
+
+.proyectos {
+    padding: 15px;
+    text-decoration: underline;
+    color: white;
+}
+.fondoproyectos {
+    background-color:cornflowerblue;
+    color: white;
+    height: 100%;
+}
+.cajacontenedoraproyectos{
+    background-color: cornflowerblue;
+    height: 700px;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;   
+}
+.cajacontenedorahijoproyecto{
+width: 350px ;
+height: 350px; 
+margin: 20px;
+margin-left: 70px;
+}
+
+.nosotros{
+    padding: 15px;
+    text-decoration: underline;
+}
+.fondonosotros{
+background-color:cornflowerblue;
+color: white;
+}
+
+.cajacontenedoranosotros{
+    background-color: cornflowerblue;
+    height: 400px; 
+    display: flex;
+    flex-direction: row;
+}
+
+.cajacontenedoranosotroshijo{
+    padding: 15px;
+    color: ghostwhite;
+    font-family: 'Oswald', sans-serif;
+    display: inline;
+    font-size: 20px;
+    word-spacing: 0.5em;
+    margin-left: 5px;
+}
+
+.cajacontenedoranosotroshijo2{
+    height: 320px;
+    margin-right:15px;
+}
+
+.contactos {
+    padding: 15px;
+    text-decoration: underline;
+}
+.fondocontactos {
+    background-color:cornflowerblue;
+    color: white;
+    height: 600px;
+}
+
+.cajacontenedoracontactos{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+}
+
+.cajacontenedoracontactoshijo{
+    padding: 15px;
+    width: 680px;
+    height:240px ;
+    margin-left: 5px;
+}
+
+.cajacontenedoracontactoshijo2{
+    height: 320px;
+    width: 550px;
+    margin-left: 90px;
+}
+
+.textarea{
+    width: 600px;
+}
+
+.boton{
+    margin-top: 10px;
+    margin-right:10px;
+}
+
+.celda{
+    transition: all 3s;
+}
+.celda:focus{
+    height:100px;
+}
+
+.fondofinal {
+    background-color: #031D44;
+    text-transform: capitalize;
+}
+.fondofinal div{
+    color:white;
+    padding: 10px;
+}
+
+/*media queries pagina index */
+@media only screen and (max-width: 400px) {
+    .carousel-caption{
+        color:white;
+        font-family: 'Oswald', sans-serif;
+        display: inline;
+        font-size: 10px;
+        word-spacing: 0.5em;
+        text-align: left;
+        top: 20px;
+        text-shadow: black 2px 2px;
+    } 
+
+    .index-h1{
+        font-size: 30px;
+        }
+}
+    
+@media only screen and (max-width: 768px) {
+    
+    .carousel-caption{
+        color:white;
+        font-family: 'Oswald', sans-serif;
+        display: inline;
+        font-size: 20px;
+        word-spacing: 0.5em;
+        text-align: left;
+        top: 20px;
+        text-shadow: black 2px 2px;
+    }  
+    .index-h1{
+        font-size: 40px;
+        }
+}
+
+/*media queries pagina nosotros*/
+
+@media only screen and (max-width: 400px) {
+    .cajacontenedoranosotros{
+        flex-wrap: wrap;
+    }
+}
+
+    @media only screen and (max-width: 400px){
+        .cajacontenedoranosotroshijo{
+            padding: 5px;
+            color: ghostwhite;
+            font-family: 'Oswald', sans-serif;
+            display: inline;
+            font-size: 10px;
+            word-spacing: 0.5em;
+            
+        }
+        .cajacontenedoranosotroshijo2{
+            height: 200px;
+            width: 300px;
+
+        }
+    }
+
+@media only screen and (max-width: 768px) {
+    .cajacontenedoranosotros{
+        flex-wrap: wrap;
+    }
+
+}
+
+    @media only screen and (max-width: 768px){
+        .cajacontenedoranosotroshijo{
+            padding: 10px;
+            color: ghostwhite;
+            font-family: 'Oswald', sans-serif;
+            display: inline;
+            font-size: 10px;
+            word-spacing: 0.5em;
+            margin-left: 5px;
+        }
+        .cajacontenedoranosotroshijo2{
+            height: 250px;
+            margin-left:10px;
+        }
+    }
+
+/* media queries pagina servicios*/
+
+@media only screen and (max-width: 400px) {
+    .cajacontenedoraservicios{
+        flex-wrap: wrap;
+    }
+}
+
+    @media only screen and (max-width: 400px){
+        .cajacontenedoraservicioshijo{
+            padding: 5px;
+            color: ghostwhite;
+            font-family: 'Oswald', sans-serif;
+            display: inline;
+            font-size: 10px;
+            word-spacing: 0.5em;
+            
+        }
+        .cajacontenedoraservicioshijo2{
+            height: 200px;
+            width: 300px;
+
+        }
+    }  
+
+@media only screen and (max-width: 768px) {
+    .cajacontenedoraservicios{
+        flex-wrap: wrap;
+    }
+
+}
+
+    @media only screen and (max-width: 768px){
+        .cajacontenedoraservicioshijo{
+            padding: 10px;
+            color: ghostwhite;
+            font-family: 'Oswald', sans-serif;
+            display: inline;
+            font-size: 10px;
+            word-spacing: 0.5em;
+            margin-left: 5px;
+        }
+        .cajacontenedoraservicioshijo2{
+            height: 250px;
+            margin-left:10px;
+        }
+    }
+
+    /*media queries pagina contactos*/
+
+    @media only screen and (max-width: 400px) {
+        .cajacontenedoracontactos{
+            flex-wrap: wrap;
+        }
+    }
+    
+        @media only screen and (max-width: 400px){
+            .cajacontenedoracontactoshijo{
+                padding: 10px;
+                width: 100px;
+                height: 100px;
+                margin-left: 2px;
+                
+            }
+
+            .cajacontenedoracontactoshijo2{
+                height: 60px;
+                width: 100px;
+                margin-left: 2px;
+            }
+
+            .textarea{
+                width: 50px;
+                height: 70px;
+            }
+        }
+    
+    @media only screen and (max-width: 768px) {
+        .cajacontenedoracontactos{
+            flex-wrap: wrap;
+        }
+    
+    }
+        @media only screen and (max-width: 768px){
+            .cajacontenedoracontactoshijo{
+                padding: 15px;
+                width: 300px;
+                height:200px ;
+                margin-left: 5px;
+            }
+            .cajacontenedoracontactoshijo2{
+                height: 200px;
+                width: 200px;
+                margin-left: 5px
+            } 
+
+            .textarea{
+                width: 300px;
+            }
+        }
+
+/*media queries proyectos*/
+@media only screen and (max-width: 400px) {
+    .cajacontenedoraproyectos{
+        flex-wrap: wrap;
+    }
+}
+
+    @media only screen and (max-width: 400px){
+        .cajacontenedorahijoproyecto{
+            width: 150px ;
+            height: 150px; 
+            margin: 5px;  
+        }
+    }
+
+@media only screen and (max-width: 768px) {
+    .cajacontenedoraproyectos{
+        flex-wrap: wrap;
+    }
+
+}
+
+    @media only screen and (max-width: 768px){
+        .cajacontenedorahijoproyecto{
+            width: 250px ;
+            height: 250px; 
+            margin: 5px;
+            margin-left: 30px;
+        }
+    }
