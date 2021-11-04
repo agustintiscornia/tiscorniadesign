@@ -6,21 +6,21 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300&display=swap');
 
-.cajacontenedoraheader{
+
+.logo{
     background-color: #031D44;
-    height: 90px;
-    width: 100%;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-}
-.cajacontenedoraheaderhijo{
-    height: 180px;
-    display: block;  
-    margin-left: 10px;  
+    height: 120px;
 }
 
+.nav-item{
+    font-size: 20px;
+    text-transform: capitalize;
+    margin-right: 10px;
+}
 
+.nav-item:hover{
+    text-decoration:underline ;
+}
 .menuprincipal a{
 text-decoration: none;
 color:white;
@@ -97,16 +97,16 @@ font-size: 60px;
 .cajacontenedoraproyectos{
     background-color: cornflowerblue;
     height: 700px;
-    padding: 20px;
+    padding: 10px;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;   
 }
 .cajacontenedorahijoproyecto{
 width: 350px ;
-height: 350px; 
+height: 300px; 
 margin: 20px;
-margin-left: 70px;
+margin-left: 80px;
 }
 
 .nosotros{
@@ -193,42 +193,7 @@ color: white;
     color:white;
     padding: 10px;
 }
-
-/*media queries pagina index */
-@media only screen and (max-width: 400px) {
-    .carousel-caption{
-        color:white;
-        font-family: 'Oswald', sans-serif;
-        display: inline;
-        font-size: 10px;
-        word-spacing: 0.5em;
-        text-align: left;
-        top: 20px;
-        text-shadow: black 2px 2px;
-    } 
-
-    .index-h1{
-        font-size: 30px;
-        }
-}
     
-@media only screen and (max-width: 768px) {
-    
-    .carousel-caption{
-        color:white;
-        font-family: 'Oswald', sans-serif;
-        display: inline;
-        font-size: 20px;
-        word-spacing: 0.5em;
-        text-align: left;
-        top: 20px;
-        text-shadow: black 2px 2px;
-    }  
-    .index-h1{
-        font-size: 40px;
-        }
-}
-
 /*media queries pagina nosotros*/
 
 @media only screen and (max-width: 400px) {
@@ -245,12 +210,11 @@ color: white;
             display: inline;
             font-size: 10px;
             word-spacing: 0.5em;
-            
+            margin-right: 60px !important;
         }
         .cajacontenedoranosotroshijo2{
-            height: 200px;
-            width: 300px;
-
+            height: 100px !important;
+            width: 250px;
         }
     }
 
@@ -267,7 +231,7 @@ color: white;
             color: ghostwhite;
             font-family: 'Oswald', sans-serif;
             display: inline;
-            font-size: 10px;
+            font-size: 13px;
             word-spacing: 0.5em;
             margin-left: 5px;
         }
@@ -296,7 +260,7 @@ color: white;
             
         }
         .cajacontenedoraservicioshijo2{
-            height: 200px;
+            height: 120px !important;
             width: 300px;
 
         }
@@ -315,7 +279,7 @@ color: white;
             color: ghostwhite;
             font-family: 'Oswald', sans-serif;
             display: inline;
-            font-size: 10px;
+            font-size: 13px;
             word-spacing: 0.5em;
             margin-left: 5px;
         }
@@ -352,6 +316,15 @@ color: white;
                 width: 50px;
                 height: 70px;
             }
+
+            .celda{
+                height: 30px;
+            }
+
+            .boton{
+                width: 80px;
+                font-size: 12px;
+            }
         }
     
     @media only screen and (max-width: 768px) {
@@ -387,9 +360,9 @@ color: white;
 
     @media only screen and (max-width: 400px){
         .cajacontenedorahijoproyecto{
-            width: 150px ;
-            height: 150px; 
-            margin: 5px;  
+            width: 200px !important;
+            height: 100px !important; 
+            margin-left: 50px !important;  
         }
     }
 
@@ -402,9 +375,9 @@ color: white;
 
     @media only screen and (max-width: 768px){
         .cajacontenedorahijoproyecto{
-            width: 250px ;
-            height: 250px; 
-            margin: 5px;
-            margin-left: 30px;
+            width: 220px ;
+            height: 220px; 
+            margin: 3px;
+            margin-left: 90px;
         }
     }
