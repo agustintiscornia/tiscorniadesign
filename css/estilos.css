@@ -9,9 +9,11 @@
 
 .logo{
     background-color: #031D44;
-    height: 120px;
+    height: 170px;
 }
-
+.navbar{
+    height: 90px;
+}
 .nav-item{
     font-size: 20px;
     text-transform: capitalize;
