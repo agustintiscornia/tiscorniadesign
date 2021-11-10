@@ -194,40 +194,62 @@ color: white;
     padding: 10px;
 }
     /* media queries index*/
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 450px) {
     .carousel-caption{
         flex-wrap: wrap;
     }
 }
 
-    @media only screen and (max-width: 400px){
+    @media only screen and (max-width: 450px){
         .carousel-caption{
             font-size: 20px; 
         }
     }
 /*media queries pagina nosotros*/
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 320px) {
     .cajacontenedoranosotros{
         flex-wrap: wrap;
     }
 }
 
-    @media only screen and (max-width: 400px){
+    @media only screen and (max-width: 320px){
         .cajacontenedoranosotroshijo{
             padding: 5px;
             color: ghostwhite;
             font-family: 'Oswald', sans-serif;
             display: inline;
-            font-size: 10px;
+            font-size: 11px !important;
             word-spacing: 0.5em;
-            margin-right: 60px !important;
         }
         .cajacontenedoranosotroshijo2{
-            height: 100px !important;
+            height: 110px;
             width: 250px;
         }
     }
+
+
+    @media only screen and (max-width: 450px) {
+        .cajacontenedoranosotros{
+            flex-wrap: wrap;
+        }
+    }
+    
+        @media only screen and (max-width: 450px){
+            .cajacontenedoranosotroshijo{
+                padding: 5px;
+                color: ghostwhite;
+                font-family: 'Oswald', sans-serif;
+                display: inline;
+                font-size: 10px;
+                word-spacing: 0.5em;
+
+            }
+            .cajacontenedoranosotroshijo2{
+                height: 140px !important;
+                width: 280px;
+            }
+        }
 
 @media only screen and (max-width: 768px) {
     .cajacontenedoranosotros{
@@ -254,29 +276,51 @@ color: white;
 
 /* media queries pagina servicios*/
 
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 320px) {
     .cajacontenedoraservicios{
         flex-wrap: wrap;
     }
 }
 
-    @media only screen and (max-width: 400px){
+    @media only screen and (max-width: 320px){
         .cajacontenedoraservicioshijo{
             padding: 5px;
             color: ghostwhite;
             font-family: 'Oswald', sans-serif;
             display: inline;
-            font-size: 10px;
+            font-size: 11px !important;
             word-spacing: 0.5em;
             
         }
         .cajacontenedoraservicioshijo2{
-            height: 120px !important;
+            height: 120px;
             width: 300px;
 
         }
     }  
 
+    @media only screen and (max-width: 450px) {
+        .cajacontenedoraservicios{
+            flex-wrap: wrap;
+        }
+    }
+    
+        @media only screen and (max-width: 450px){
+            .cajacontenedoraservicioshijo{
+                padding: 5px;
+                color: ghostwhite;
+                font-family: 'Oswald', sans-serif;
+                display: inline;
+                font-size: 10px;
+                word-spacing: 0.5em;
+                
+            }
+            .cajacontenedoraservicioshijo2{
+                height: 140px !important;
+                width: 290px;
+    
+            }
+        }  
 @media only screen and (max-width: 768px) {
     .cajacontenedoraservicios{
         flex-wrap: wrap;
@@ -302,13 +346,13 @@ color: white;
 
     /*media queries pagina contactos*/
 
-    @media only screen and (max-width: 400px) {
+    @media only screen and (max-width: 320px) {
         .cajacontenedoracontactos{
             flex-wrap: wrap;
         }
     }
     
-        @media only screen and (max-width: 400px){
+        @media only screen and (max-width: 320px){
             .cajacontenedoracontactoshijo{
                 padding: 10px;
                 width: 100px;
@@ -338,6 +382,41 @@ color: white;
             }
         }
     
+        @media only screen and (max-width: 450px) {
+            .cajacontenedoracontactos{
+                flex-wrap: wrap;
+            }
+        }
+        
+            @media only screen and (max-width: 450px){
+                .cajacontenedoracontactoshijo{
+                    padding: 10px;
+                    width: 100px;
+                    height: 100px;
+                    margin-left: 2px;
+                    
+                }
+    
+                .cajacontenedoracontactoshijo2{
+                    height: 60px;
+                    width: 100px;
+                    margin-left: 2px;
+                }
+    
+                .textarea{
+                    width: 50px;
+                    height: 70px;
+                }
+    
+                .celda{
+                    height: 30px;
+                }
+    
+                .boton{
+                    width: 80px;
+                    font-size: 12px;
+                }
+            }
     @media only screen and (max-width: 768px) {
         .cajacontenedoracontactos{
             flex-wrap: wrap;
@@ -363,20 +442,33 @@ color: white;
         }
 
 /*media queries proyectos*/
-@media only screen and (max-width: 400px) {
+@media only screen and (max-width: 320px) {
     .cajacontenedoraproyectos{
         flex-wrap: wrap;
     }
 }
 
-    @media only screen and (max-width: 400px){
+    @media only screen and (max-width: 320px){
         .cajacontenedorahijoproyecto{
-            width: 200px !important;
-            height: 100px !important; 
-            margin-left: 50px !important;  
+            width: 200px;
+            height: 100px ; 
+            margin-left: 50px;  
         }
     }
 
+    @media only screen and (max-width: 450px) {
+        .cajacontenedoraproyectos{
+            flex-wrap: wrap;
+        }
+    }
+    
+        @media only screen and (max-width: 450px){
+            .cajacontenedorahijoproyecto{
+                width: 220px !important;
+                height: 100px !important; 
+                margin-left: 60px !important;  
+            }
+        }
 @media only screen and (max-width: 768px) {
     .cajacontenedoraproyectos{
         flex-wrap: wrap;
