@@ -9,11 +9,9 @@
 
 .logo{
     background-color: #031D44;
-    height: 170px;
+    height: 110px;
 }
-.navbar{
-    height: 90px;
-}
+
 .nav-item{
     font-size: 20px;
     text-transform: capitalize;
@@ -22,16 +20,6 @@
 
 .nav-item:hover{
     text-decoration:underline ;
-}
-.menuprincipal a{
-text-decoration: none;
-color:white;
-font-size: 20px;
-text-transform: capitalize;
-margin-right: 15px;
-}
-.menuprincipal a:hover{
-    text-decoration: underline;
 }
 
 .carousel-caption{
